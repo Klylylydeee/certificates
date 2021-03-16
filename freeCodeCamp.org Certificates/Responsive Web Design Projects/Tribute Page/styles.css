@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+#main header {
+  min-height: 25vh;
+  padding: 0 3rem 1rem 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: url("http://blog.thefirehoseproject.com/posts/wp-content/uploads/2017/09/jose-aljovin-331066-1400x992.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-y: 160%;
+  color: #fbfcf5;
+}
+
+@media screen and (max-height: 420px) {
+  #main header {
+    padding: 1rem 3rem;
+  }
+}
+
+#main header h1 {
+  text-shadow: 2px 1px #cbbbac;
+}
+
+#main header h6 {
+  font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  #main header h6 {
+    display: none;
+  }
+}
+
+#tribute-info {
+  background-color: #fbfcf5;
+  padding: 1rem 3rem;
+  line-height: 1.9rem;
+  color: #2c282b;
+}
+
+@media screen and (max-height: 420px) {
+  #tribute-info {
+    padding: 1rem 3rem;
+  }
+}
+
+#tribute-info p {
+  padding: 0 0 1rem 0;
+}
+
+#tribute-info p:hover {
+  color: #013A51;
+}
+
+#tribute-info p:first-child {
+  padding: 1.5rem 0 1rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  #tribute-info p {
+    padding: 0 0 1.5rem 0;
+  }
+  #tribute-info p:nth-child(1) {
+    padding: 1.5rem 0;
+  }
+}
+
+#tribute-info .quote {
+  border-left: 3px solid #013A51;
+  padding: 0 0 0 1rem;
+  margin: 0 0 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+#tribute-info .quote p {
+  padding: .3rem 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  #tribute-info .quote {
+    margin: 0 0 3rem 0;
+    text-align: left;
+  }
+}
+
+#tribute-info #tribute-contents ul li h3 {
+  padding: 1rem 0 0 0;
+}
+
+#tribute-info #tribute-contents ul li p {
+  padding: .5rem 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  #tribute-info #tribute-contents ul li h3 {
+    padding: 2rem 0 0 0;
+  }
+  #tribute-info #tribute-contents ul li p {
+    padding: 1rem 0 0 0;
+  }
+}
+
+#tribute-info #tribute-contents ul li:hover h3 {
+  color: #013A51;
+}
+
+#tribute-info #tribute-contents ul li:last-child h3 {
+  padding: 1rem 0 0 0;
+}
+
+#tribute-info #tribute-contents ul li:last-child p {
+  padding: .5rem 0 1.5rem 0;
+}
+
+#tribute-info #tribute-contents #img-div {
+  text-align: center;
+  padding: 3rem 0 1rem 0;
+}
+
+#tribute-info #tribute-contents #img-div #image {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin: auto;
+  display: block;
+  border-radius: 15px;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+}
+
+#tribute-info #tribute-contents #img-div #img-caption {
+  padding: .5rem 0 0 0;
+  letter-spacing: initial;
+  font-weight: 400;
+}
+
+#tribute-info #tribute-contents #img-div:hover #image {
+  -webkit-transform: translateY(-2%);
+          transform: translateY(-2%);
+}
+/*# sourceMappingURL=styles.css.map */
